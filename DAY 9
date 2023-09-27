@@ -1,0 +1,37 @@
+//////////////////////////////////////////////////////////// CODE 1 /////////////////////////////////////////////////////////////////////
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int n,x,y;
+	cin>>n;
+	for(int i=1;i<=n;i++){
+	    cin>>x>>y;
+	    int z=(y-1)/x;
+	    cout<<z<<endl;
+	}
+	return 0;
+}
+
+
+//////////////////////////////////////////////////////////// CODE 2 //////////////////////////////////////////////////////////////////////
+#include <iostream>
+using namespace std;
+
+int main() {
+	int n;
+	cin>>n;
+	for(int i=1;i<=n;i++){
+	    int a, b, c, d, e, p, f;
+	    cin>>a>>b>>c>>d>>e>>p;
+	    f=p*(a+b+c+d+e);
+	    if(f<=120){
+	        cout<<"No"<<endl;
+	    }
+	    else{
+	        cout<<"Yes"<<endl;
+	    }
+	}
+	return 0;
+}
